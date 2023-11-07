@@ -1,0 +1,67 @@
+# Ignore files created by your text editor or IDE
+*.swp
+*.swo
+*.swn
+.vscode/
+.idea/
+
+# Ignore compiled files and binaries
+*.class
+*.jar
+*.war
+*.ear
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore package-lock.json for Node.js projects
+package-lock.json
+
+# Ignore .DS_Store files created by macOS
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore user-specific files and directories
+node_modules/
+dist/
+.cache/
+.env
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore credentials and secrets
+secrets.json
+.env.local
+.env.*.local
+
+# Ignore macOS directory attributes
+._*
+
+# Ignore npm debugging logs
+npm-debug.log*
+
+# Ignore Yarn Integrity file
+.yarn-integrity
+
+# Ignore temporary files and swap files
+*.tmp
+*.bak
+
+# Ignore test directories and files
+__tests__/
+test/
+tests/
+
+# Ignore generated documentation
+doc/
+docs/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore build
