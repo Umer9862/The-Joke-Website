@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Joke</title>
-</head>
-<body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Jost&family=Lato:wght@700&family=Pacifico&family=Poppins&family=Quicksand&family=Urbanist:wght@400;500;600;700&display=swap");
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
 
-    <p><%= joke %></p>
-</body>
+      html {
+        font-size: 20px;
+      }
+
+      body {
+        background: #7b4397;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #dc2430, #7b4397);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+
+      div {
+        text-align: center;
+      }
+
+      h1 {
+        color: rgb(255, 184, 184);
+        font-family: "Poppins";
+        font-weight: 700;
+        text-align: center;
+        margin: 180px 180px 10px 180px;
+      }
+
+      p {
+        text-align: center;
+        font-size: 0.85rem;
+        margin: 2rem auto;
+
+        font-family: "Urbanist";
+        line-height: 1.5;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        color: rgb(255, 184, 184);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <h1>A Joke For You:</h1>
+      <p><%= joke %></p>
+    </div>
+  </body>
 </html>
